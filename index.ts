@@ -32,6 +32,7 @@ class HexCode {
 }
 
 class Top10 {
+    // list with type Player included
     list: []
 
     constructor() {
@@ -40,7 +41,9 @@ class Top10 {
 
     addPlayer(player:Player) {
         for (let i = 0; i < this.list.length; i++) {
-            if (player.score > this.list[i].)
+            if (player.score > this.list[i].score) {
+                //  insert at i? place?
+            }
         }
     }
 }
